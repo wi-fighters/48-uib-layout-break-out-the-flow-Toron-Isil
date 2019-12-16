@@ -6,19 +6,27 @@ html, body {
 }
 
 p.halloworld {
-    left: 5px;
-    top: 7px;
+
 
 }
 
 .halloworld {
+    display: grid;
+    /* position: relative; */
+    left: 5px;
     box-sizing: border-box;
     width: 200px;
     height: 200px;
     background-color: orange;
-    margin: 7px auto 0px;
+    /* margin: 7px auto 0px; */
     padding: 5px 5px;
     text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 5px;
+    margin: auto;
+    top: 7px;
 }
 
 .box1 {
